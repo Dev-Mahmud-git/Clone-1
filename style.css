@@ -1,7 +1,7 @@
 body {
     width: 1920px;
     height: 1080px;
-    background-image: url("/Win10.jpg");
+    background-image: url("https://github.com/Dev-Mahmud-git/Clone-1/blob/main/Win10.jpg");
     background-repeat: no-repeat;
     margin: 0px;
 }
@@ -19,7 +19,7 @@ background-color: #211B2D;
     position: absolute;
     width: 103px;
     height: 80px;
-    background-image: url("/wnlogoo.png");
+    background-image: url("https://github.com/Dev-Mahmud-git/Clone-1/blob/main/wnlogoo.png");
     background-repeat: no-repeat;
     background-size: 83px;
     margin: 0px;
@@ -30,7 +30,7 @@ background-color: #211B2D;
 
 .winlogo:hover {
 
-    background-image: url("/wnlogonhoverr.png");
+    background-image: url("https://github.com/Dev-Mahmud-git/Clone-1/blob/main/wnlogonhoverr.png");
     transition: all 0.3s ease;
     filter: saturate(99%) invert(14%);
 -webkit-filter: saturate(99%) invert(14%);
