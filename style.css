@@ -19,11 +19,20 @@ background-color: #211B2D;
     position: absolute;
     width: 103px;
     height: 80px;
-    background-image: url("/wnlogo.png");
+    background-image: url("/wnlogoo.png");
     background-repeat: no-repeat;
-    background-size: 95px;
+    background-size: 83px;
     margin: 0px;
     padding: 0px;
     
 
+}
+
+.winlogo:hover {
+
+    background-image: url("/wnlogonhoverr.png");
+    transition: all 0.3s ease;
+    filter: saturate(99%) invert(14%);
+-webkit-filter: saturate(99%) invert(14%);
+-moz-filter: saturate(99%) invert(14%);
 }
