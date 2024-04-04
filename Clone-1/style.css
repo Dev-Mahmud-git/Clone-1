@@ -1,0 +1,89 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url('/Clone-1/Win10.jpg');
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.taskbar {
+
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 1000px;
+    background-color: #211B2D;
+    z-index: 3;
+    opacity: 100%;
+
+
+}
+
+.winlogo {
+
+    position: relative;
+    width: 103px;
+    height: 80px;
+    bottom: 0px;
+    background-image: url("/Clone-1/wnlogoo.png");
+    background-repeat: no-repeat;
+    background-size: 83px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 3;
+
+
+}
+
+.drpdn {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 893px;
+    height: 893px;
+    top: 72px;
+    background-color: rgba(7, 7, 7, 0.2);
+    pointer-events: none;
+    backdrop-filter: blur(20px);
+    z-index: 1;
+    opacity: 0;
+    transition: all .25s ease-in-out;
+}
+
+.drpdn.active {
+    top: 26px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.winlogo:hover {
+    position: relative;
+    background-image: url("/Clone-1/wnlogonhoverr.png");
+    transition: all 0.3s ease;
+    z-index: 2;
+    filter: saturate(99%) invert(14%);
+    -webkit-filter: saturate(99%) invert(14%);
+    -moz-filter: saturate(99%) invert(14%);
+}
+
+.start {
+    
+    position: absolute;
+    width: 85px;
+    height: 893px;
+    top: 0px;
+    background-color: aqua;
+    
+
+}
+.power{
+
+
+    position: absolute;
+    width: 85px;
+    height: 93px;
+    bottom: 0px;
+    background-color: black;
+    
+
+}
